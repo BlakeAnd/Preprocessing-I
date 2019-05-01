@@ -254,6 +254,12 @@ body section section {
     flex-direction: column;
   }
 }
+@media (max-width: 800px) {
+  html section section div ul,
+  body section section div ul {
+    margin-bottom: 20px;
+  }
+}
 html section section div ul li,
 body section section div ul li {
   margin-bottom: 10px;

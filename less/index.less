@@ -57,11 +57,11 @@ table {
 @eggshell-green: rgb(205, 252, 220);
 @sand: rgb(253, 248, 222);
 @h2: 1.2rem;
-.column{
+.column(){
 	display: flex;
 	flex-direction: column;
 }
-.row{
+.row(){
 	display: flex;
 	flex-direction: row;
 }
@@ -150,6 +150,9 @@ html, body {
 			}
 			div{
 				ul{
+					@media(max-width: 800px){
+						margin-bottom: 20px;
+					}
 					li{
 						margin-bottom: 10px;
 					}
